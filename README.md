@@ -63,29 +63,6 @@
 > 이 저장소는 공식 예제 저장소가 아닌 **개인 학습 기록 저장소**입니다.  
 > 교재 본문을 그대로 복제하지 않고, 직접 실행한 코드와 이해한 내용을 중심으로 정리합니다.
 
----
-
-## 🔄 진행률 자동 업데이트
-
-`notebooks/` 폴더에 새로운 절의 노트북을 업로드하면 GitHub Actions가 자동으로 진행률을 계산합니다.
-
-```text
-노트북 업로드
-→ 파일명에서 장·절 번호 확인
-→ 완료한 절의 수 계산
-→ README 진행률 수정
-→ 수정된 README 자동 커밋
-```
-
-진행률에 포함되는 파일명 형식:
-
-```text
-01_03_fish_classification.ipynb
-02_01_train_test_set.ipynb
-03_02_linear_regression.ipynb
-```
-
-파일 이름 앞부분을 반드시 `장_절_` 형식으로 작성합니다.
 
 ```text
 ✅ 03_02_linear_regression.ipynb
