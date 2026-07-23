@@ -26,13 +26,13 @@
 <br>
 
 <!-- PROGRESS_START -->
-![Progress](https://img.shields.io/badge/Progress-3%20%2F%2028-2EA44F?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Progress-4%20%2F%2028-2EA44F?style=for-the-badge)
 
 ```text
-██░░░░░░░░░░░░░░░░░░  11%
+███░░░░░░░░░░░░░░░░░  14%
 ```
 
-**완료 3개 · 전체 28개 절**
+**완료 4개 · 전체 28개 절**
 <!-- PROGRESS_END -->
 
 <br>
