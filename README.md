@@ -92,16 +92,19 @@
 
 ## 🗺️ 전체 학습 로드맵
 
+> **완료된 학습 주제의 이름을 누르면 해당 Jupyter Notebook으로 바로 이동합니다.**  
+> 아직 노트북이 생성되지 않은 절은 `⏳ 예정`으로 표시합니다.
+
 <details open>
 <summary><strong>Chapter 01 · 나의 첫 머신러닝</strong></summary>
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 01-1 | 인공지능과 머신러닝, 딥러닝 |
-| 01-2 | 코랩과 주피터 노트북 |
-| 01-3 | 마켓과 머신러닝 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 01-1 | 인공지능과 머신러닝, 딥러닝 | ⏳ 예정 |
+| 01-2 | 코랩과 주피터 노트북 | ⏳ 예정 |
+| 01-3 | [마켓과 머신러닝](notebooks/01_03_fish_classification/01_03_fish_classification.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -117,10 +120,10 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 02-1 | 훈련 세트와 테스트 세트 |
-| 02-2 | 데이터 전처리 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 02-1 | [훈련 세트와 테스트 세트](notebooks/02_01_train_test_set/02_01_train_test_set.ipynb) | ✅ 완료 |
+| 02-2 | [데이터 전처리](notebooks/02_02_data_preprocessing/02_02_data_preprocessing.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -137,11 +140,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 03-1 | k-최근접 이웃 회귀 |
-| 03-2 | 선형 회귀 |
-| 03-3 | 특성 공학과 규제 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 03-1 | [k-최근접 이웃 회귀](notebooks/03_01_knn_regression/03_01_knn_regression.ipynb) | ✅ 완료 |
+| 03-2 | [선형 회귀](notebooks/03_02_linear_regression/03_02_linear_regression.ipynb) | ✅ 완료 |
+| 03-3 | [특성 공학과 규제](notebooks/03_03_feature_engineering_regularization/03_03_feature_engineering_regularization.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -153,15 +156,15 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Chapter 04 · 다양한 분류 알고리즘</strong></summary>
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 04-1 | 로지스틱 회귀 |
-| 04-2 | 확률적 경사 하강법 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 04-1 | [로지스틱 회귀](notebooks/04_01_logistic_regression/04_01_logistic_regression.ipynb) | ✅ 완료 |
+| 04-2 | 확률적 경사 하강법 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -177,11 +180,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 05-1 | 결정 트리 |
-| 05-2 | 교차 검증과 그리드 서치 |
-| 05-3 | 트리의 앙상블 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 05-1 | 결정 트리 | ⏳ 예정 |
+| 05-2 | 교차 검증과 그리드 서치 | ⏳ 예정 |
+| 05-3 | 트리의 앙상블 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -197,11 +200,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 06-1 | 군집 알고리즘 |
-| 06-2 | k-평균 |
-| 06-3 | 주성분 분석 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 06-1 | 군집 알고리즘 | ⏳ 예정 |
+| 06-2 | k-평균 | ⏳ 예정 |
+| 06-3 | 주성분 분석 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -218,11 +221,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 07-1 | 인공 신경망 |
-| 07-2 | 심층 신경망 |
-| 07-3 | 신경망 모델 훈련 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 07-1 | 인공 신경망 | ⏳ 예정 |
+| 07-2 | 심층 신경망 | ⏳ 예정 |
+| 07-3 | 신경망 모델 훈련 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -239,11 +242,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 08-1 | 합성곱 신경망의 구성 요소 |
-| 08-2 | 합성곱 신경망을 사용한 이미지 분류 |
-| 08-3 | 합성곱 신경망의 시각화 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 08-1 | 합성곱 신경망의 구성 요소 | ⏳ 예정 |
+| 08-2 | 합성곱 신경망을 사용한 이미지 분류 | ⏳ 예정 |
+| 08-3 | 합성곱 신경망의 시각화 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -259,11 +262,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 09-1 | 순차 데이터와 순환 신경망 |
-| 09-2 | 순환 신경망으로 IMDB 리뷰 분류하기 |
-| 09-3 | LSTM과 GRU 셀 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 09-1 | 순차 데이터와 순환 신경망 | ⏳ 예정 |
+| 09-2 | 순환 신경망으로 IMDB 리뷰 분류하기 | ⏳ 예정 |
+| 09-3 | LSTM과 GRU 셀 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -279,11 +282,11 @@
 
 <br>
 
-| 절 | 학습 주제 |
-|---|---|
-| 10-1 | 어텐션 메커니즘과 트랜스포머 |
-| 10-2 | 트랜스포머로 상품 설명 요약하기 |
-| 10-3 | 대규모 언어 모델로 텍스트 생성하기 |
+| 절 | 학습 주제 | 상태 |
+|---|---|:---:|
+| 10-1 | 어텐션 메커니즘과 트랜스포머 | ⏳ 예정 |
+| 10-2 | 트랜스포머로 상품 설명 요약하기 | ⏳ 예정 |
+| 10-3 | 대규모 언어 모델로 텍스트 생성하기 | ⏳ 예정 |
 
 **핵심 목표**
 
@@ -301,38 +304,63 @@
 
 ## 📁 디렉터리 구조
 
+현재 저장소에 실제로 존재하는 파일과 폴더를 기준으로 작성했습니다.
+
 ```text
 hongong-ml-dl-study/
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
 ├── .github/
 │   └── workflows/
 │       └── update-progress.yml
-│
+├── notebooks/
+│   ├── 01_03_fish_classification/
+│   │   ├── 01_03_fish_classification.ipynb
+│   │   ├── README.md
+│   │   └── UPLOAD_GUIDE.md
+│   ├── 02_01_train_test_set/
+│   │   ├── assets/
+│   │   │   └── 01_train_test_distribution.png
+│   │   ├── 02_01_train_test_set.ipynb
+│   │   └── README.md
+│   ├── 02_02_data_preprocessing/
+│   │   ├── assets/
+│   │   │   ├── 01_raw_prediction.png
+│   │   │   ├── 02_raw_nearest_neighbors.png
+│   │   │   ├── 03_same_axis_scale.png
+│   │   │   ├── 04_wrong_unscaled_point.png
+│   │   │   ├── 05_scaled_data.png
+│   │   │   └── 06_scaled_nearest_neighbors.png
+│   │   ├── 02_02_data_preprocessing.ipynb
+│   │   └── README.md
+│   ├── 03_01_knn_regression/
+│   │   ├── assets/
+│   │   │   └── 01_perch_length_weight.png
+│   │   ├── 03_01_knn_regression.ipynb
+│   │   └── README.md
+│   ├── 03_02_linear_regression/
+│   │   ├── assets/
+│   │   │   ├── 01_knn_prediction_50cm.png
+│   │   │   ├── 02_knn_prediction_100cm.png
+│   │   │   ├── 03_linear_regression.png
+│   │   │   └── 04_polynomial_regression.png
+│   │   ├── 03_02_linear_regression.ipynb
+│   │   └── README.md
+│   ├── 03_03_feature_engineering_regularization/
+│   │   ├── assets/
+│   │   │   ├── 01_ridge_alpha_scores.png
+│   │   │   └── 02_lasso_alpha_scores.png
+│   │   ├── 03_03_feature_engineering_regularization.ipynb
+│   │   └── README.md
+│   └── 04_01_logistic_regression/
+│       ├── assets/
+│       │   └── 01_sigmoid_function.png
+│       ├── 04_01_logistic_regression.ipynb
+│       └── README.md
 ├── scripts/
 │   └── update_progress.py
-│
-├── notebooks/
-│   ├── 01_first_machine_learning/
-│   ├── 02_data_handling/
-│   ├── 03_regression_and_regularization/
-│   ├── 04_classification/
-│   ├── 05_tree_algorithms/
-│   ├── 06_unsupervised_learning/
-│   ├── 07_deep_learning/
-│   ├── 08_convolutional_neural_networks/
-│   ├── 09_recurrent_neural_networks/
-│   └── 10_transformers_and_llm/
-│
-├── notes/
-│   ├── concepts/
-│   └── troubleshooting/
-│
-└── assets/
-    ├── images/
-    └── results/
+├── .gitignore
+├── README.md
+├── SETUP.md
+└── requirements.txt
 ```
 
 ---
