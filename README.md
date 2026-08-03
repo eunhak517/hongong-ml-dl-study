@@ -164,7 +164,7 @@
 | 절 | 학습 주제 | 상태 |
 |---|---|:---:|
 | 04-1 | [로지스틱 회귀](notebooks/04_01_logistic_regression/04_01_logistic_regression.ipynb) | ✅ 완료 |
-| 04-2 | 확률적 경사 하강법 | ⏳ 예정 |
+| 04-2 | [확률적 경사 하강법](notebooks/04_02_stochastic_gradient_descent/04_02_stochastic_gradient_descent.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -175,16 +175,16 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Chapter 05 · 트리 알고리즘</strong></summary>
 
 <br>
 
 | 절 | 학습 주제 | 상태 |
 |---|---|:---:|
-| 05-1 | 결정 트리 | ⏳ 예정 |
-| 05-2 | 교차 검증과 그리드 서치 | ⏳ 예정 |
-| 05-3 | 트리의 앙상블 | ⏳ 예정 |
+| 05-1 | [결정 트리](notebooks/05_01_decision_tree/05_01_decision_tree.ipynb) | ✅ 완료 |
+| 05-2 | [교차 검증과 그리드 서치](notebooks/05_02_cross_validation_and_grid_search/05_02_cross_validation_and_grid_search.ipynb) | ✅ 완료 |
+| 05-3 | [트리의 앙상블](notebooks/05_03_tree_ensemble/05_03_tree_ensemble.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -195,16 +195,16 @@
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Chapter 06 · 비지도 학습</strong></summary>
 
 <br>
 
 | 절 | 학습 주제 | 상태 |
 |---|---|:---:|
-| 06-1 | 군집 알고리즘 | ⏳ 예정 |
-| 06-2 | k-평균 | ⏳ 예정 |
-| 06-3 | 주성분 분석 | ⏳ 예정 |
+| 06-1 | [군집 알고리즘](notebooks/06_01_clustering_algorithm/06_01_clustering_algorithm.ipynb) | ✅ 완료 |
+| 06-2 | [k-평균](notebooks/06_02_k_means/06_02_k_means.ipynb) | ✅ 완료 |
+| 06-3 | [주성분 분석](notebooks/06_03_principal_component_analysis/06_03_principal_component_analysis.ipynb) | ✅ 완료 |
 
 **핵심 목표**
 
@@ -304,7 +304,7 @@
 
 ## 📁 디렉터리 구조
 
-현재 저장소에 실제로 존재하는 파일과 폴더를 기준으로 작성했습니다.
+현재 업로드된 절별 실습 폴더를 기준으로 작성했습니다.
 
 ```text
 hongong-ml-dl-study/
@@ -350,10 +350,68 @@ hongong-ml-dl-study/
 │   │   │   └── 02_lasso_alpha_scores.png
 │   │   ├── 03_03_feature_engineering_regularization.ipynb
 │   │   └── README.md
-│   └── 04_01_logistic_regression/
+│   ├── 04_01_logistic_regression/
+│   │   ├── assets/
+│   │   │   └── 01_sigmoid_function.png
+│   │   ├── 04_01_logistic_regression.ipynb
+│   │   └── README.md
+│   ├── 04_02_stochastic_gradient_descent/
+│   │   ├── assets/
+│   │   │   └── 01_epoch_accuracy_curve.png
+│   │   ├── 04_02_stochastic_gradient_descent.ipynb
+│   │   └── README.md
+│   ├── 05_01_decision_tree/
+│   │   ├── assets/
+│   │   │   ├── 01_full_decision_tree.png
+│   │   │   ├── 02_tree_top_two_levels.png
+│   │   │   ├── 03_max_depth_3_scaled_tree.png
+│   │   │   ├── 04_max_depth_3_original_scale_tree.png
+│   │   │   └── 05_min_impurity_decrease_tree.png
+│   │   ├── 05_01_decision_tree.ipynb
+│   │   └── README.md
+│   ├── 05_02_cross_validation_and_grid_search/
+│   │   ├── 05_02_cross_validation_and_grid_search.ipynb
+│   │   └── README.md
+│   ├── 05_03_tree_ensemble/
+│   │   ├── 05_03_tree_ensemble.ipynb
+│   │   └── README.md
+│   ├── 06_01_clustering_algorithm/
+│   │   ├── assets/
+│   │   │   ├── 01_apple_gray.png
+│   │   │   ├── 02_apple_gray_reversed.png
+│   │   │   ├── 03_pineapple_and_banana.png
+│   │   │   ├── 04_sample_mean_histogram.png
+│   │   │   ├── 05_pixel_mean_bar_charts.png
+│   │   │   ├── 06_average_fruit_images.png
+│   │   │   └── 07_images_closest_to_apple_mean.png
+│   │   ├── 06_01_clustering_algorithm.ipynb
+│   │   └── README.md
+│   ├── 06_02_k_means/
+│   │   ├── assets/
+│   │   │   ├── 01_cluster_0_images.png
+│   │   │   ├── 02_cluster_1_images.png
+│   │   │   ├── 03_cluster_2_images.png
+│   │   │   ├── 04_cluster_centers.png
+│   │   │   ├── 05_sample_index_100.png
+│   │   │   └── 06_elbow_curve.png
+│   │   ├── 06_02_k_means.ipynb
+│   │   └── README.md
+│   └── 06_03_principal_component_analysis/
 │       ├── assets/
-│       │   └── 01_sigmoid_function.png
-│       ├── 04_01_logistic_regression.ipynb
+│       │   ├── 01_principal_components_50.png
+│       │   ├── 02_reconstructed_apples.png
+│       │   ├── 03_reconstructed_pineapples.png
+│       │   ├── 04_reconstructed_bananas.png
+│       │   ├── 05_explained_variance_ratio.png
+│       │   ├── 06_pca_2d_cluster_0.png
+│       │   ├── 07_pca_2d_cluster_1.png
+│       │   ├── 08_pca_2d_cluster_2.png
+│       │   ├── 09_pca_2d_scatter.png
+│       │   ├── 10_pca_99_cluster_0.png
+│       │   ├── 11_pca_99_cluster_1.png
+│       │   ├── 12_pca_99_cluster_2.png
+│       │   └── 13_pca_99_scatter.png
+│       ├── 06_03_principal_component_analysis.ipynb
 │       └── README.md
 ├── scripts/
 │   └── update_progress.py
@@ -517,13 +575,3 @@ jupyter lab
 - 교재 본문, 삽화, 표와 확인 문제를 그대로 복제하지 않습니다.
 - 공개된 실습 코드는 출처를 표시하고 직접 작성한 설명과 구분합니다.
 - 교재를 대체할 수 있을 정도의 내용을 재배포하지 않습니다.
-
----
-
-<div align="center">
-
-### 🚀 꾸준히 배우고, 직접 실험하고, 결과로 증명하기
-
-**Machine Learning → Deep Learning → Physical AI**
-
-</div>
